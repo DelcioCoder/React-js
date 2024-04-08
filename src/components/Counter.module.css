@@ -1,0 +1,33 @@
+div{
+
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+
+button{
+    width: 60px;
+    margin: 6px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    transition: .1s;
+}
+
+button:hover{
+    opacity: .6;
+}
+
+.reset{
+    background-color: hsl(0, 0%, 80%);
+    float: right;
+    width: 50px;
+}
